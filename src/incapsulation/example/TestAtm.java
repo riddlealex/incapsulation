@@ -10,6 +10,9 @@ public class TestAtm {
 
         System.out.println(atm1.isWithdraw(80));
 
+        System.out.println(atm1.getSum());
+
+
         System.out.println(atm1.getFiftyBill() + " купюр по 50");
         System.out.println(atm1.getTenBill() + " купюр по 10");
     }
