@@ -27,6 +27,7 @@ public class Atm {
             System.out.println("Номинал 50: " + fifty);
             System.out.println("Номинал 20: " + twenty);
             System.out.println("Номинал 10: " + ten);
+            sum = sum- amount;
 
             setFiftyBill(getFiftyBill() - fifty);
             setTwentyBill(getTwentyBill() - twenty);
